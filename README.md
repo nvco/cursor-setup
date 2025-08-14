@@ -1,12 +1,15 @@
-# Cursor Setup Options
+# Cursor and Claude Code Settings
 
-A simple, versioned backup of Cursor configuration options; rules, commands, and any other helpful workspace presets. 
+A simple backup of Cursor and Claude Code configuration options; mcp, rules, commands, and any other helpful workspace presets. 
 
 ```
-cursor-setup/
+cursor-claude-code-config/
 ├── README.md
 ├── .gitignore
+├── .claude/
+│   └── mcp.json
 └── .cursor/
+    ├── mcp.json
     └── rules/
         ├── general-principles.mdc
         ├── html-accessibility.mdc
